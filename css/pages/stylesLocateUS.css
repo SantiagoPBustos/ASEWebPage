@@ -1,0 +1,122 @@
+/*----------------Global Styles--------------*/
+.ubication{
+    width: 80%;
+    margin: auto;
+    height: 370px;
+    margin-top: 50px;
+}
+
+.ubication h1{
+    font-size: 32px;
+    border-bottom: 2px solid #b4930f;
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+}
+
+.ubication p{
+    font-size: 20px;
+    padding: 20px;
+    margin: auto;
+}
+
+.description-ubication{
+    width: 40%;
+    float: left;
+}
+
+.description-ubication a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.map{
+    width: 60%;
+    float: right;
+    margin: auto;
+    border: 2px solid #b4930f;
+}
+
+.map iframe{
+    width: 100%;
+    height: 360px;
+}
+
+.form-contact-seccion{
+    width: 80%;
+    margin: auto;
+    height: 400px;
+    margin-bottom: 50px;
+}
+
+.form-contact-seccion form{
+    height: 400px;
+}
+
+form{
+    width: 75%;
+    margin: auto;
+}
+
+input, textarea{
+    width: 100%;
+    margin: 10px 0px;
+    float: left;
+    padding: 10px 20px;
+    background-color: #bdbab8;
+    border: none;
+    resize: none;
+}
+
+::placeholder { 
+    color: black;
+  }
+
+.checkbox{
+    width: min-content;
+}
+
+.button-submit{
+    background-color: #b4930f;
+    color: black;
+    border: 2px solid black;
+    font-weight: bold;
+    
+}
+
+/*------------------MediaQuerys-----------------*/
+@media (max-width: 900px) {
+
+    .description-ubication{
+        width: 100%;
+    }
+    
+    .description-ubication h1{
+        margin: auto;
+    }
+
+    .description-ubication p{
+        padding: 20px 0px;
+    }
+
+    .map{
+        width: 100%;
+    }
+
+    .ubication{
+        height: 600px;
+    }
+
+    .footer{
+        height: 510px;
+    }
+
+}
+
+/*------------------MediaQuerys-----------------*/
+@media (max-width: 480px) {
+    .footer{
+        height: 670px;
+    }
+}
